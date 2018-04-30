@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-content: center;
+}
+
+main {
+    margin-top: 10px;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main aside {
+    width: 32%;
+    background-color: palegreen;
+}
+
+main div {
+    width: 66%;
+    background-color: blue;
+    padding: 5px;
+}
+
+
+footer {
+    margin-top: 10px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+footer div {
+    width: 32%;
+    text-align: center;
+    background-color: grey;
+}
